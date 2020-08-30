@@ -1,0 +1,9 @@
+#username, #email, #password {
+    display: block;
+    margin: 5px;
+}
+
+.form {
+    width: 500px;
+    margin: 200px auto;
+}

@@ -2,3 +2,17 @@
 readme
 packages
 test
+validation
+styling for form
+userauth
+password reset
+db:
+ username
+ email
+ password:hashed
+ fname
+ lname
+ age
+ date created?
+
+ 
