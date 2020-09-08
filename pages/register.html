@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="form">
+        <form action="/register" method="POST">
+            <div class="form-item">
+                <label for="first-name">First Name*</label>
+                <input type="text" name="firstName" placeholder="First Name" id="first-name" required>
+            </div>
+            <div class="form-item">
+                <label for="last-name">Last Name*</label>
+                <input type="text" name="lastName" placeholder="Last Name" id="last-name" required>
+            </div>
+            <div class="form-item">
+                <label for="username">Username*</label>
+                <input type="text" name="userName" placeholder="username" id="username" required>
+            </div>
+            <div class="form-item">
+                <label for="Email">Email*</label>
+                <input type="email" name="email" placeholder="email@example.com" id="email" required>
+            </div>
+            <div class="form-item">
+                <label for="password">Password*</label>
+                <input type="password" name="password" placeholder="********" id="password" required>
+            </div>
+            <div class="form-item">
+                <label for="confirm-password">Confirm Password*</label>
+                <input type="password" name="confirm_password" placeholder="********" id="confirm-password" required onkeyup="check()">
+            </div>
+            <div class="form-item">
+                <label for="age">Age*</label>
+                <input type="number" name="age" placeholder="42" id="age" required>
+            </div>
+            <div class="form-item">
+                <label for="submit"></label>
+                <input type="submit" value="Submit" id="submit">
+            </div>
+        </form>
+    </div>
+    <script src="js/register.js"></script>
+</body>
+</html>
